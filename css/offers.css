@@ -1,3 +1,4 @@
+
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -68,7 +69,7 @@
   }
 
   .offers-cards .card header h3 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .offers-cards .card header span {
