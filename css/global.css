@@ -34,7 +34,7 @@ select,
 textarea,
 button {
   margin: 0;
-  padding: 0;
+  padding: 0%;
   box-sizing: border-box;
 }
 body {
@@ -54,6 +54,16 @@ body {
   background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
+}
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 auto;
+}
+.content-text {
+font-size: 20px;
+font-weight: var(--text-weight);
+line-height: 32px;
 }
 
 .button {
