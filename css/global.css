@@ -55,6 +55,16 @@ body {
   border: none;
   margin: 16px auto 32px;
 }
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 auto;
+}
+.content-text {
+font-size: 20px;
+font-weight: var(--text-weight);
+line-height: 32px;
+}
 
 .button {
   width: 280px;
