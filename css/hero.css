@@ -42,6 +42,11 @@
   .hero h2 {
     padding: 88px 120px;
   }
+
+  .hero-img {
+    background: url(/jornada-viagens/img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
   .bottom-hero .hero-img {
     background: url(/jornada-viagens/img/pre-rodape-desktop.png) no-repeat;
     background-size: cover;
