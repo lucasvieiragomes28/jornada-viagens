@@ -2,15 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin: 32px 48px;
-}
-
-.testimonial header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
 }
 
 .testimonial-container article header p {
@@ -18,19 +9,18 @@
   line-height: 28px;
 }
 
-.testimonial-container article footer {
+.testimonial-container footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 24px;
   margin-top: 8px;
 }
-
-.testimonial-container article footer img {
+.testimonial-container footer img {
   width: 86px;
   height: 86px;
 }
-.testimonial-container footer .profile-content h4 {
+.testimonial-container footer .profile-content h3 {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--title-weight);
@@ -41,10 +31,8 @@
   color: var(--secondary-color);
   line-height: 32px;
 }
-
 @media screen and (min-width: 1440px) {
   .testimonial-container {
     flex-direction: row;
-    margin: 48px 121.5px;
   }
 }
